@@ -2,9 +2,6 @@ _documents
 _private
 _downloads
 logs
-nikki/_private
-nikki/nikki_beta.py
-nikki/models
 
 __pycache__
 models/_transformers
@@ -14,3 +11,13 @@ api.py
 .venv
 _venv
 venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Builds
+build/
+dist/
+downloads/
+
+

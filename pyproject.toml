@@ -1,15 +1,11 @@
-[tool.poetry]
+[project]
 name = "ml-pytorch-sandbox"
 version = "0.1.0"
-description = ""
-authors = ["Scott Sullivan <scott@sullysbrain.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-torch = "~2.0.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4.3.1",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+]
